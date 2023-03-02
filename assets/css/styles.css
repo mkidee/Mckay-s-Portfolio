@@ -10,3 +10,7 @@ header {
     display:flex;
     background-color: cadetblue;
 }
+
+#scaleText{
+    font-size: 20px;
+}
