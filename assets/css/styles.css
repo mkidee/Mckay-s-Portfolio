@@ -5,11 +5,13 @@
 
 .head{
     display:flex;
-    max-height: 500px;
+    height: 350px;
+    background-color: #62758f;
 }
 
 h1{
     position:absolute;
+    padding-top: 15px;
     padding-left: 50px;
     z-index: 1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,14 +19,15 @@ h1{
     color: var(--offBlack);
 }
 
-#pine{
-    width:100%;
-
-}
-
 .aboutMe{
     display:flex;
-    background-color: cadetblue;
+    color:var(--offBlack);
+    background-color: #8f7c62;
+}
+
+#aboutTitle{
+    font-size: 35px;
+    padding-left: 75px;
 }
 
 #scaleText{
