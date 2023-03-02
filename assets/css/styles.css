@@ -1,9 +1,18 @@
 
 
 
-header {
+.head{
     display:flex;
-    background-color: grey;
+    z-index: 1;
+    /* background-image:url(../images/yves-cedric-schulze-Imrh3AGWud0-unsplash.jpg); */
+}
+
+h1{
+    position:absolute;
+}
+
+#pine{
+    max-width: 100%;
 }
 
 .aboutMe{
