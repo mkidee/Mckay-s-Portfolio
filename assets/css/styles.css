@@ -1,18 +1,25 @@
 
-
+:root{
+    --offBlack:rgb(31, 29, 30);
+}
 
 .head{
     display:flex;
-    z-index: 1;
-    /* background-image:url(../images/yves-cedric-schulze-Imrh3AGWud0-unsplash.jpg); */
+    max-height: 500px;
 }
 
 h1{
     position:absolute;
+    padding-left: 50px;
+    z-index: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+    color: var(--offBlack);
 }
 
 #pine{
-    max-width: 100%;
+    width:100%;
+
 }
 
 .aboutMe{
