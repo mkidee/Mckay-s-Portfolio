@@ -1,24 +1,33 @@
 
 :root{
-    --offBlack:rgb(31, 29, 30);
-    --steel:#62758f;
-    --brown:#8f7c62;
+    --offBlack:#1b1b1b;
+    --steel:#8d99b1;
+    --brown:#b1a58d;
 }
 
-.head{
+header{
     display:flex;
-    height: 350px;
+    height: 200px;
     background-color: var(--steel);
 }
 
 h1{
     position:absolute;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-left: 50px;
     z-index: 1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:60px;
+    font-size:55px;
     color: var(--offBlack);
+    justify-content: flex-start;
+}
+
+.nav{
+    min-height: 50px;
+    background-color: red;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
 }
 
 .aboutMe{
@@ -40,4 +49,8 @@ h1{
 
 #scaleText{
     font-size: 20px;
+}
+
+body{
+    background-color: var(--steel);
 }
