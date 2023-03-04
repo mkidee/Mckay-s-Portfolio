@@ -89,6 +89,8 @@ body{
     width: 55%; 
     position:relative;
     display:inline-block;
+    margin-right:15%;
+    margin-left:15%;
 }
 
 .work1 p{
@@ -105,39 +107,71 @@ body{
 }
 
 .work1 img{
-    display:block;
     max-height: 100%; 
     max-width: 100%;
 } 
 
 .work2{
-    background-color: brown;
-    height:350px;
-    flex-wrap: wrap;
-    width:45%;
-    margin:10px;
+    height:100%;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+
+.work2 p{
+    position:relative;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0, -50%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:ghostwhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 3px;
+}
+
+.work2 img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .work3{
     background-color: red;
-    height:350px;
+    height:100%;
     flex-wrap: wrap;
-    width:45%;
-    margin:10px;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+
 }
 
 .work4{
     background-color:green;
-    height:350px;
+    height:100%;
     flex-wrap: wrap;
-    width:45%;
-    margin:10px;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+
 }
 
 .work5{
     background-color: white;
-    height:350px;
+    height:100%;
     flex-wrap: wrap;
-    width:45%;
-    margin:10px;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+
 }
