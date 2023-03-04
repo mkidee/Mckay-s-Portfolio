@@ -363,6 +363,16 @@ body{
         /* align-items: center; */
     }
 
+    #aboutP{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+    .headshot{
+        max-height: 300px;
+        max-width: 100%;
+    }
+
     .work1 p{
         font-size: 3vw;
     }
@@ -380,9 +390,12 @@ body{
     .work2 p, .work3 p, .work4 p, .work5 p{
         font-size:3vw;
     }
+}
 
-    .headshot{
-        max-height: 300px;
-        max-width: 100%;
+@media screen and (max-width:450px){
+    #aboutP{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
     }
+
 }
