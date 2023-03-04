@@ -69,10 +69,56 @@ img {
     padding-right: 75px;
 }
 
-#scaleText{
-    font-size: 20px;
-}
 
 body{
     background-color: var(--steel);
+}
+
+.devSkills{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work1{
+    flex-grow:5;
+    background-color: yellow;
+    height:400px;
+    width:100%;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.work2{
+    background-color: brown;
+    height:250px;
+    flex-wrap: wrap;
+    width:45%;
+    margin:10px;
+}
+
+.work3{
+    background-color: red;
+    height:250px;
+    flex-wrap: wrap;
+    width:45%;
+    margin:10px;
+}
+
+.work4{
+    background-color:green;
+    height:250px;
+    flex-wrap: wrap;
+    width:45%;
+    margin:10px;
+}
+
+.work5{
+    background-color: white;
+    height:250px;
+    flex-wrap: wrap;
+    width:45%;
+    margin:10px;
 }
