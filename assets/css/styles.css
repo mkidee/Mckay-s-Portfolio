@@ -316,6 +316,26 @@ body{
     text-shadow: 0 0 3px;
 }
 
+#contact ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#contact li{
+    margin-left: auto;
+    margin-right:auto;
+    list-style-type: none;
+}
+
+#contact a:link{
+    text-decoration:none;
+    color: var(--ghost);
+}
+#contact a:visited{
+    color:var(--ghost);
+}
+
 #top{
     font-size: 2vw;
     text-decoration: none;
