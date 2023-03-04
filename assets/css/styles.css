@@ -2,7 +2,7 @@
 :root{
     --offBlack:#1b1b1b;
     --steel:#8d99b1;
-    --brown:#b1a58d;
+    --pink:#b18d99;
 }
 
 header{
@@ -50,7 +50,7 @@ header{
 .aboutMe{
     display:flex;
     color:var(--offBlack);
-    background-color: var(--brown);
+    background-color: var(--pink);
     border-radius: 10px;
 }
 
@@ -101,7 +101,7 @@ body{
     font-size: 55px;
     color:ghostwhite;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0 0 2px;
+    text-shadow: 0 0 3px;
 }
 
 .work1 img{
