@@ -22,10 +22,6 @@ header{
     color: var(--offBlack);
 }
 
-img {
-    border-radius: 10px;
-}
-
 .nav{
     /* display:flex;
     align-items: center;
@@ -74,6 +70,12 @@ body{
     background-color: var(--steel);
 }
 
+.myWork{
+    font-size: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
 .devSkills{
     display:flex;
     flex-direction: row;
@@ -83,17 +85,34 @@ body{
 }
 
 .work1{
-    flex-grow:5;
-    background-color: yellow;
-    height:400px;
-    width:100%;
-    margin-left:40px;
-    margin-right:40px;
+    height: 100%; 
+    width: 55%; 
+    position:relative;
+    display:inline-block;
 }
+
+.work1 p{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0, -50%);
+    text-align: center;
+    font-size: 55px;
+    color:ghostwhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 2px;
+}
+
+.work1 img{
+    display:block;
+    max-height: 100%; 
+    max-width: 100%;
+} 
 
 .work2{
     background-color: brown;
-    height:250px;
+    height:350px;
     flex-wrap: wrap;
     width:45%;
     margin:10px;
@@ -101,7 +120,7 @@ body{
 
 .work3{
     background-color: red;
-    height:250px;
+    height:350px;
     flex-wrap: wrap;
     width:45%;
     margin:10px;
@@ -109,7 +128,7 @@ body{
 
 .work4{
     background-color:green;
-    height:250px;
+    height:350px;
     flex-wrap: wrap;
     width:45%;
     margin:10px;
@@ -117,7 +136,7 @@ body{
 
 .work5{
     background-color: white;
-    height:250px;
+    height:350px;
     flex-wrap: wrap;
     width:45%;
     margin:10px;
