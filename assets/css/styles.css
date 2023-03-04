@@ -29,14 +29,25 @@ header{
 }
 
 .nav{
+    display:flex;
     width:100%;
     height:100%;
-    flex-flow:row-reverse;
     list-style-type: none;
     font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:var(--offBlack);
     border-radius: 10px;
+}
+
+.nav ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.nav li{
+    margin-left: 30px;
+    margin-right:15px;
 }
 
 .nav a:link{
@@ -113,7 +124,7 @@ body{
     transform:translate(0, -50%);
     text-align: center;
     font-size: 60px;
-    color:ghostwhite;
+    color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0 0 3px;
 }
@@ -291,5 +302,9 @@ body{
     .devSkills{
         display:flex;
         flex-direction: column;
+    }
+
+    .nav{
+        font-size: 18px;
     }
 }
