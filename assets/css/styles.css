@@ -3,6 +3,7 @@
     --offBlack:#1b1b1b;
     --steel:#8d99b1;
     --pink:#b18d99;
+    --ghost:#DCDCDC;
 }
 
 header{
@@ -74,7 +75,7 @@ body{
     font-size: 50px;
     padding-left: 75px;
     padding-right: 75px;
-    color:ghostwhite;
+    color:var(--ghost);
     text-shadow: 0 0 3px;
 }
 
@@ -84,6 +85,7 @@ body{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 3px groove var(--ghost);
 }
 
 .work1{
@@ -108,13 +110,13 @@ body{
     text-shadow: 0 0 3px;
 }
 
-.work1 img{
+/* .work1 img{
     max-height: 100%; 
     max-width: 100%;
     border-radius: 15px;
-} 
+}  */
 
-.work2{
+/* .work2{
     height:100%;
     width:30%;
     margin-top:50px;
@@ -122,9 +124,9 @@ body{
     margin-left:10%;
     margin-right:10%;
 
-}
+} */
 
-.work2 p{
+/* .work2 p{
     position:relative;
     top:50%;
     left:0;
@@ -133,49 +135,18 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color:ghostwhite;
+    color:var(--ghost);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0 0 3px;
-}
+} */
 
-.work2 img{
+/* .work2 img{
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
-}
+} */
 
-.work3{
-    height:100%;
-    flex-wrap: wrap;
-    width:30%;
-    margin-top:50px;
-    margin-bottom:30px;
-    margin-left:10%;
-    margin-right:10%;
-
-}
-
-.work3 p{
-    position:relative;
-    top:50%;
-    left:0;
-    right:0;
-    transform:translate(0, -50%);
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    color:ghostwhite;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0 0 3px;
-}
-
-.work3 img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 15px;
-}
-
-.work4{
+/* .work3{
     height:100%;
     flex-wrap: wrap;
     width:30%;
@@ -184,9 +155,9 @@ body{
     margin-left:10%;
     margin-right:10%;
 
-}
+} */
 
-.work4 p{
+/* .work3 p{
     position:relative;
     top:50%;
     left:0;
@@ -195,18 +166,18 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color:ghostwhite;
+    color:var(--ghost);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0 0 3px;
-}
+} */
 
-.work4 img{
+/* .work3 img{
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
-}
+} */
 
-.work5{
+/* .work4{
     height:100%;
     flex-wrap: wrap;
     width:30%;
@@ -215,9 +186,9 @@ body{
     margin-left:10%;
     margin-right:10%;
 
-}
+} */
 
-.work5 p{
+/* .work4 p{
     position:relative;
     top:50%;
     left:0;
@@ -226,13 +197,82 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    color:ghostwhite;
+    color:var(--ghost);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 3px;
+} */
+
+/* .work4 img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+} */
+
+/* .work5{
+    height:100%;
+    flex-wrap: wrap;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+
+} */
+
+/* .work5 p{
+    position:relative;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0, -50%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:var(--ghost);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 3px;
+} */
+
+/* .work5 img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+} */
+
+.work2, .work3, .work4, .work5{
+    height:100%;
+    flex-wrap: wrap;
+    width:30%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.work1 img, .work2 img, .work3 img, .work4 img, .work5 img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.work2 p, .work3 p, .work4 p, .work5 p{
+    position:relative;
+    top:50%;
+    left:0;
+    right:0;
+    transform:translate(0, -50%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:var(--ghost);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0 0 3px;
 }
 
-.work5 img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 15px;
+.contact{
+    font-size: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color:var(--ghost);
+    text-shadow: 0 0 3px;
 }
