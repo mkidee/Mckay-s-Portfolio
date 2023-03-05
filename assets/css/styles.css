@@ -281,7 +281,7 @@ body{
     flex-wrap: wrap;
     width:30%;
     margin-top:30px;
-    margin-bottom:50px;
+    margin-bottom:30px;
     margin-left:5%;
     margin-right:10%;
 }
@@ -392,10 +392,10 @@ body{
     }
 }
 
-@media screen and (max-width:450px){
+/* @media screen and (max-width:450px){
     #aboutP{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 10px;
     }
 
-}
+} */
