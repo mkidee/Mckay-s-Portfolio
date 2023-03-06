@@ -295,7 +295,7 @@ body{
     }
 
     .name{
-        padding-left: var(--);
+        padding-left: var(--fif);
         font-size: var(--bigadj);
         align-items: center;
     }
