@@ -154,7 +154,7 @@ body{
     text-shadow: var(--zero) var(--zero) var(--three);
 }
 
-
+/* these classes target the two project cards on the left half of the screen */
 .work2, .work4{
     height:var(--full);
     flex-wrap: wrap;
@@ -165,6 +165,7 @@ body{
     margin-right:5%;
 }
 
+/* these classes target the two project cards on the right half of the screen */
 .work3, .work5{
     height:var(--full);
     flex-wrap: wrap;
@@ -175,6 +176,7 @@ body{
     margin-right:10%;
 }
 
+/* these classes tell all 5 project card images how to act */
 .work1 img, .work2 img, .work3 img, .work4 img, .work5 img{
     max-width: var(--full);
     max-height: var(--full);
@@ -182,6 +184,7 @@ body{
     box-shadow: 7px 7px 25px black;
 }
 
+/* these classes target the words above the four smaller project cards */
 .work2 p, .work3 p, .work4 p, .work5 p{
     position:relative;
     top:50%;
@@ -196,6 +199,7 @@ body{
     text-shadow: var(--zero) var(--zero) var(--three);
 }
 
+/* this id targets the entire contact me section */
 #contact{
     font-size:2vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -205,10 +209,12 @@ body{
     text-shadow: var(--zero) var(--zero) var(--three);
 }
 
-    .conTitle{
+/* this class targets the words 'Contact Me' */
+.conTitle{
         font-size: 3.5vw;
-    }
+}
 
+/* this id targets the whole list of my contact options */
 #contact ul{
     display:flex;
     flex-flow: row wrap;
@@ -217,12 +223,14 @@ body{
     padding-right:0px;
 }
 
+/* this id targets each individual item in my contact option list */
 #contact li{
     margin-left: auto;
     margin-right:auto;
     list-style-type: none;
 }
 
+/* the following two id's tell the list of contact options to always look the same */
 #contact a:link{
     text-decoration:none;
     color: var(--ghost);
@@ -231,12 +239,14 @@ body{
     color:var(--ghost);
 }
 
+/* this id targets the arrows that take you back to the top */
 #top{
     font-size: 2vw;
     text-decoration: none;
     text-align: center;
 }
 
+/* the following two id's target the arrows- making them always look consistent */
 #top a:link{
     text-decoration:none;
     color: var(--ghost);
@@ -245,12 +255,15 @@ body{
     color:var(--ghost);
 }
 
+/* this id targets the copyright section */
 #copyright{
     text-align: center;
     font-size: 2vw;
     color:var(--ghost);
 }
 
+/* The following section '@media' is retargetting certain classes or id's that have been used previously.
+    These classes and id's are readjusted in this section for smaller screens and devices. */
 @media screen and (max-width:1100px){
     .devSkills{
         display:flex;
@@ -323,6 +336,7 @@ body{
     }
 }
 
+/* additional adjustments for extra small screens such as small phones. */
 @media screen and (max-width:450px){
     .headshot{
         max-height: 125px;
