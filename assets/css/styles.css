@@ -393,6 +393,11 @@ body{
         max-width: 100%;
     }
 
+    #myWork{
+        padding-left: 5px;
+        padding-right:0px;
+    }
+
     .work1 p{
         font-size: 3vw;
     }
@@ -409,6 +414,12 @@ body{
     
     .work2 p, .work3 p, .work4 p, .work5 p{
         font-size:3vw;
+    }
+
+    #contact{
+        font-size: 3vw;
+        padding-left:5px;
+        padding-right:0px;
     }
 }
 
