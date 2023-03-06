@@ -4,46 +4,53 @@
     --steel:#8d99b1;
     --pink:#b18d99;
     --ghost:#DCDCDC;
+    --thirty:30px;
+    --ten:10px;
+    --full:100%;
+    --sevenfive:75px;
+    --three:3px;
+    --zero:var(0);
+    --zerop:0px;
 }
 
 header{
     display:flex;
     align-items: center;
     height:auto;
-    width:100%;
-    border-radius: 10px;
+    width:var(--full);
+    border-radius: var(--ten);
     background-color: var(--offBlack);
     color:var(--ghost);
-    border-bottom: 3px groove var(--ghost);
+    border-bottom: var(--three) groove var(--ghost);
 }
 
 .headshot{
     position:relative;
     max-height: 450px;
-    max-width: 100%;
+    max-width: var(--full);
     border-radius: 15px;
     box-shadow: 7px 7px 25px black;
-    margin-right:30px;
-    margin-left:10px;
+    margin-right:var(--thirty);
+    margin-left:var(--ten);
 }
 
 .name{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:3vw;
     color: var(--ghost);
-    width:100%;
-    height:100%;
-    padding-left: 75px;
+    width:var(--full);
+    height:var(--full);
+    padding-left: var(--sevenfive);
 }
 
 .nav{
     display:flex;
-    width:100%;
-    height:100%;
+    width:var(--full);
+    height:var(--full);
     list-style-type: none;
     font-size: 2vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: var(--ten);
 }
 
 .nav ul{
@@ -68,8 +75,8 @@ header{
     display:flex;
     color:var(--ghost);
     background-color: var(--offBlack);
-    border-radius: 10px;
-    margin-top: 30px;
+    border-radius: var(--ten);
+    margin-top: var(--thirty);
 }
 
 #aboutP{
@@ -79,9 +86,9 @@ header{
 
 #aboutTitle{
     font-size: 3.5vw;
-    padding-left: 75px;
-    padding-right: 75px;
-    text-shadow: 0 0 3px;
+    padding-left: var(--sevenfive);
+    padding-right: var(--sevenfive);
+    text-shadow: var(--zero) var(--zero) var(--three);
 }
 
 
@@ -92,10 +99,10 @@ body{
 #myWork{
     font-size: 3.5vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: var(--sevenfive);
+    padding-right: var(--sevenfive);
     color:var(--ghost);
-    text-shadow: 0 0 3px;
+    text-shadow: var(--zero) var(--zero) var(--three);
 }
 
 .devSkills{
@@ -104,16 +111,16 @@ body{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
-    border-top: 3px groove var(--ghost);
-    border-bottom: 3px groove var(--ghost);
+    border-top: var(--three) groove var(--ghost);
+    border-bottom: var(--three) groove var(--ghost);
 }
 
 .work1{
-    height: 100%; 
+    height: var(--full); 
     width: 55%; 
     position:relative;
     display:inline-block;
-    margin-top:30px;
+    margin-top:var(--thirty);
     margin-right:15%;
     margin-left:15%;}
 
@@ -128,7 +135,7 @@ body{
     font-size: 3vw;
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0 0 3px;
+    text-shadow: var(--zero) var(--zero) var(--three);
 }
 
 /* .work1 img{
@@ -261,28 +268,28 @@ body{
 } */
 
 .work2, .work4{
-    height:100%;
+    height:var(--full);
     flex-wrap: wrap;
     width:30%;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top:var(--thirty);
+    margin-bottom:var(--thirty);
     margin-left:10%;
     margin-right:5%;
 }
 
 .work3, .work5{
-    height:100%;
+    height:var(--full);
     flex-wrap: wrap;
     width:30%;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top:var(--thirty);
+    margin-bottom:var(--thirty);
     margin-left:5%;
     margin-right:10%;
 }
 
 .work1 img, .work2 img, .work3 img, .work4 img, .work5 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: var(--full);
+    max-height: var(--full);
     border-radius: 15px;
     box-shadow: 7px 7px 25px black;
 }
@@ -290,24 +297,24 @@ body{
 .work2 p, .work3 p, .work4 p, .work5 p{
     position:relative;
     top:50%;
-    left:0;
-    right:0;
-    transform:translate(0, -50%);
+    left:var(--zero);
+    right:var(--zero);
+    transform:translate(var(--zero), -50%);
     text-align: center;
     text-decoration: none;
     font-size: 2vw;
     color:var(--ghost);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 0 0 3px;
+    text-shadow: var(--zero) var(--zero) var(--three);
 }
 
 #contact{
     font-size:2vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: var(--sevenfive);
+    padding-right: var(--sevenfive);
     color:var(--ghost);
-    text-shadow: 0 0 3px;
+    text-shadow: var(--zero) var(--zero) var(--three);
 }
 
     .conTitle{
@@ -366,7 +373,6 @@ body{
     .nav{
         font-size: 18px;
         display:inline-flexbox;
-        /* align-items: center; */
     }
 
     .nav ul{
@@ -378,7 +384,7 @@ body{
     }
 
     .name{
-        padding-left: 0;
+        padding-left: 15px;
         font-size: 3vw;
         align-items: center;
     }
@@ -395,12 +401,12 @@ body{
 
     .headshot{
         max-height: 200px;
-        max-width: 100%;
-        margin-right: 10px;
+        max-width: var(--full);
+        margin-right: var(--ten);
     }
 
     #myWork{
-        padding-left: 10px;
+        padding-left: var(--ten);
         padding-right:0px;
     }
 
@@ -424,7 +430,7 @@ body{
 
     #contact{
         font-size: 3vw;
-        padding-left:10px;
+        padding-left:var(--ten);
         padding-right:0px;
     }
 }
