@@ -4,13 +4,23 @@
     --steel:#8d99b1;
     --pink:#b18d99;
     --ghost:#DCDCDC;
-    --thirty:30px;
-    --ten:10px;
     --full:100%;
+    --thirtyp:30%;
+    --fifp:15%;
+    --tenp:10%;
+    --fivp:5%;
     --sevenfive:75px;
+    --thirty:30px;
+    --twofive:25px;
+    --fif:15px;
+    --ten:10px;
+    --seven:7px;
     --three:3px;
-    --zero:var(0);
     --zerop:0px;
+    --zero:0;
+    --biggest:3.5vw;
+    --bigadj:3vw;
+    --medadj:2vw;
 }
 
 /* the top section where my name and nav bar are stored */
@@ -30,8 +40,8 @@ header{
     position:relative;
     max-height: 450px;
     max-width: var(--full);
-    border-radius: 15px;
-    box-shadow: 7px 7px 25px black;
+    border-radius: var(--fif);
+    box-shadow: var(--seven) var(--seven) var(--twofive) black;
     margin-right:var(--thirty);
     margin-left:var(--ten);
 }
@@ -39,7 +49,7 @@ header{
 /* this class effects my name */
 .name{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:3vw;
+    font-size:var(--bigadj);
     color: var(--ghost);
     width:var(--full);
     height:var(--full);
@@ -52,7 +62,7 @@ header{
     width:var(--full);
     height:var(--full);
     list-style-type: none;
-    font-size: 2vw;
+    font-size: var(--medadj);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: var(--ten);
 }
@@ -95,7 +105,7 @@ header{
 
 /* this id targets the two words 'About Me' */
 #aboutTitle{
-    font-size: 3.5vw;
+    font-size: var(--biggest);
     padding-left: var(--sevenfive);
     padding-right: var(--sevenfive);
     text-shadow: var(--zero) var(--zero) var(--three);
@@ -108,7 +118,7 @@ body{
 
 /* this id targets the entire 'my work' section- including all of the image and project spaces */
 #myWork{
-    font-size: 3.5vw;
+    font-size: var(--biggest);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: var(--sevenfive);
     padding-right: var(--sevenfive);
@@ -134,12 +144,12 @@ body{
     position:relative;
     display:inline-block;
     margin-top:var(--thirty);
-    margin-right:15%;
-    margin-left:15%;}
+    margin-right:var(--fifp);
+    margin-left:var(--fifp);
+}
 
     /* section below is for the words on the biggest/main project card. 
     it is very picky about variables- it won't function correctly when using the --zero variable. */
-
 .work1 p{
     position:absolute;
     top:50%;
@@ -148,7 +158,7 @@ body{
     margin-top: 50px;
     transform:translate(0, -50%);
     text-align: center;
-    font-size: 3vw;
+    font-size: var(--bigadj);
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: var(--zero) var(--zero) var(--three);
@@ -158,30 +168,30 @@ body{
 .work2, .work4{
     height:var(--full);
     flex-wrap: wrap;
-    width:30%;
+    width:var(--thirtyp);
     margin-top:var(--thirty);
     margin-bottom:var(--thirty);
-    margin-left:10%;
-    margin-right:5%;
+    margin-left:var(--tenp);
+    margin-right:var(--fivp);
 }
 
 /* these classes target the two project cards on the right half of the screen */
 .work3, .work5{
     height:var(--full);
     flex-wrap: wrap;
-    width:30%;
+    width:var(--thirtyp);
     margin-top:var(--thirty);
     margin-bottom:var(--thirty);
-    margin-left:5%;
-    margin-right:10%;
+    margin-left:var(--fivp);
+    margin-right:var(--tenp);
 }
 
 /* these classes tell all 5 project card images how to act */
 .work1 img, .work2 img, .work3 img, .work4 img, .work5 img{
     max-width: var(--full);
     max-height: var(--full);
-    border-radius: 15px;
-    box-shadow: 7px 7px 25px black;
+    border-radius: var(--fif);
+    box-shadow: var(--seven) var(--seven) var(--twofive) black;
 }
 
 /* these classes target the words above the four smaller project cards */
@@ -193,7 +203,7 @@ body{
     transform:translate(var(--zero), -50%);
     text-align: center;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: var(--medadj);
     color:var(--ghost);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: var(--zero) var(--zero) var(--three);
@@ -201,7 +211,7 @@ body{
 
 /* this id targets the entire contact me section */
 #contact{
-    font-size:2vw;
+    font-size:var(--medadj);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: var(--sevenfive);
     padding-right: var(--sevenfive);
@@ -211,7 +221,7 @@ body{
 
 /* this class targets the words 'Contact Me' */
 .conTitle{
-        font-size: 3.5vw;
+        font-size: var(--biggest);
 }
 
 /* this id targets the whole list of my contact options */
@@ -219,8 +229,8 @@ body{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding-left:0px;
-    padding-right:0px;
+    padding-left:var(--zerop);
+    padding-right:var(--zerop);
 }
 
 /* this id targets each individual item in my contact option list */
@@ -241,7 +251,7 @@ body{
 
 /* this id targets the arrows that take you back to the top */
 #top{
-    font-size: 2vw;
+    font-size: var(--medadj);
     text-decoration: none;
     text-align: center;
 }
@@ -258,7 +268,7 @@ body{
 /* this id targets the copyright section */
 #copyright{
     text-align: center;
-    font-size: 2vw;
+    font-size: var(--medadj);
     color:var(--ghost);
 }
 
@@ -277,16 +287,16 @@ body{
     }
 
     .nav ul{
-        font-size: 2vw;
+        font-size: var(--medadj);
     }
 
     .nav li{
-        font-size: 2vw;
+        font-size: var(--medadj);
     }
 
     .name{
-        padding-left: 15px;
-        font-size: 3vw;
+        padding-left: var(--);
+        font-size: var(--bigadj);
         align-items: center;
     }
 
@@ -308,11 +318,11 @@ body{
 
     #myWork{
         padding-left: var(--ten);
-        padding-right:0px;
+        padding-right:var(--zerop);
     }
 
     .work1 p{
-        font-size: 3vw;
+        font-size: var(--bigadj);
     }
 
     .work1{
@@ -321,18 +331,18 @@ body{
 
     .work2, .work3, .work4, .work5{
         width:60%;
-        margin-left: 0px;
-        margin-right:0px;
+        margin-left: var(--zerop);
+        margin-right:var(--zerop);
     }
     
     .work2 p, .work3 p, .work4 p, .work5 p{
-        font-size:3vw;
+        font-size:var(--bigadj);
     }
 
     #contact{
-        font-size: 3vw;
+        font-size: var(--bigadj);
         padding-left:var(--ten);
-        padding-right:0px;
+        padding-right:var(--zerop);
     }
 }
 
