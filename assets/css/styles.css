@@ -28,7 +28,7 @@ header{
 
 .name{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:2vw;
+    font-size:3vw;
     /* display:inline; */
     color: var(--ghost);
     width:100%;
@@ -85,9 +85,10 @@ header{
 }
 
 #aboutTitle{
-    font-size: 50px;
+    font-size: 4vw;
     padding-left: 75px;
     padding-right: 75px;
+    text-shadow: 0 0 3px;
 }
 
 
@@ -96,7 +97,7 @@ body{
 }
 
 #myWork{
-    font-size: 50px;
+    font-size: 4vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 75px;
     padding-right: 75px;
@@ -363,13 +364,32 @@ body{
         /* align-items: center; */
     }
 
+    .nav ul{
+        font-size: 2vw;
+    }
+
+    .nav li{
+        font-size: 2vw;
+    }
+
+    .name{
+        padding-left: 0;
+        font-size: 3;
+        align-items: center;
+    }
+
+    #aboutTitle{
+        margin-left: -70px;
+        margin-right:-60px;
+    }
+
     #aboutP{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 18px;
+        font-size: 2vw;
     }
 
     .headshot{
-        max-height: 300px;
+        max-height: 200px;
         max-width: 100%;
     }
 
@@ -392,10 +412,9 @@ body{
     }
 }
 
-/* @media screen and (max-width:450px){
-    #aboutP{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 10px;
+@media screen and (max-width:450px){
+    .headshot{
+        max-height: 150px;
     }
 
-} */
+}
