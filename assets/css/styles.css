@@ -65,12 +65,6 @@ header{
     color:var(--ghost);
 }
 
-/* .welcome{
-    width:100%;
-    height: 50px;
-    background-color: black;
-} */
-
 #aboutMe{
     display:flex;
     color:var(--ghost);
@@ -85,7 +79,7 @@ header{
 }
 
 #aboutTitle{
-    font-size: 4vw;
+    font-size: 3.5vw;
     padding-left: 75px;
     padding-right: 75px;
     text-shadow: 0 0 3px;
@@ -97,7 +91,7 @@ body{
 }
 
 #myWork{
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 75px;
     padding-right: 75px;
@@ -317,6 +311,10 @@ body{
     text-shadow: 0 0 3px;
 }
 
+    .conTitle{
+        font-size: 3.5vw;
+    }
+
 #contact ul{
     display:flex;
     flex-flow: row wrap;
@@ -351,6 +349,12 @@ body{
     color:var(--ghost);
 }
 
+#copyright{
+    text-align: center;
+    font-size: 2vw;
+    color:var(--ghost);
+}
+
 @media screen and (max-width:1100px){
     .devSkills{
         display:flex;
@@ -374,12 +378,12 @@ body{
 
     .name{
         padding-left: 0;
-        font-size: 3;
+        font-size: 3vw;
         align-items: center;
     }
 
     #aboutTitle{
-        margin-left: -70px;
+        margin-left: -60px;
         margin-right:-60px;
     }
 
@@ -391,10 +395,11 @@ body{
     .headshot{
         max-height: 200px;
         max-width: 100%;
+        margin-right: 10px;
     }
 
     #myWork{
-        padding-left: 5px;
+        padding-left: 10px;
         padding-right:0px;
     }
 
@@ -418,14 +423,14 @@ body{
 
     #contact{
         font-size: 3vw;
-        padding-left:5px;
+        padding-left:10px;
         padding-right:0px;
     }
 }
 
 @media screen and (max-width:450px){
     .headshot{
-        max-height: 150px;
+        max-height: 125px;
     }
 
 }
